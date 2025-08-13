@@ -1,0 +1,61 @@
+car-parking-system/
+│
+├── backend/
+│   ├── manage.py
+│   ├── requirements.txt
+│   ├── venv/                          # Your virtual environment (not tracked by git)
+│   │
+│   ├── backend/                       # Django project settings
+│   │   ├── __init__.py
+│   │   ├── asgi.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   │
+│   ├── api/                           # Your main Django application for the API
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── models.py                  # Contains User, ParkingSlot, Booking models
+│   │   ├── serializers.py             # DRF serializers for API input/output
+│   │   ├── permissions.py             # Custom permissions for roles
+│   │   ├── views.py                   # API logic
+│   │   ├── urls.py                    # API URLs and endpoints
+│   │   ├── tests.py                   # Unit tests for your app
+│   │   └── migrations/                # Django migration files (auto-generated)
+│   │
+│   └── .env                           # Environment variables (keep secrets here)
+│
+├── README.md                          # Documentation/instructions for your backend
+└── .gitignore                         # Ignore venv, .env, pyc files, etc.
+
+
+
+
+car-parking-system/
+│
+├── backend/
+│   ├── manage.py
+│   ├── requirements.txt
+│   ├── .env
+│   ├── venv/                # Created after `python -m venv venv`
+│   ├── backend/
+│   │   ├── __init__.py
+│   │   ├── asgi.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── models.py
+│   │   ├── serializers.py
+│   │   ├── permissions.py
+│   │   ├── views.py
+│   │   ├── urls.py
+│   │   └── tests.py
+│   └── migrations/
+│
+├── README.md
+└── .gitignore
